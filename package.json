@@ -1,0 +1,23 @@
+{
+  "name": "npm-workspace-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "16.13.2",
+    "npm": "7.22.0"
+  },
+  "workspaces": [
+    "packages/a",
+    "packages/b"
+  ],
+  "devDependencies": {
+    "eslint": "^8.8.0"
+  }
+}
